@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
+dependencies {
+    compile 'com.squareup.okhttp:okhttp:2.1.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+
+    testCompile 'junit:junit:4.11'
+}
