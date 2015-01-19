@@ -1,4 +1,4 @@
-Nzigo
+Mzigo
 
 	- Listeners register and deregister themselves (that can be activities, classes, singletons etc)
 	- They send Request(s) specifying what they expect back and that is send to them through a general callback specified after registration (interface on top)
