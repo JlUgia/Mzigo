@@ -9,7 +9,7 @@ targetCompatibility = JavaVersion.VERSION_1_7
 
 dependencies {
     compile 'com.squareup.okhttp:okhttp:2.1.0'
-    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.code.gson:gson:2.3'
 
     testCompile 'junit:junit:4.11'
 }
